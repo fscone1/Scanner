@@ -7,7 +7,7 @@ ports = ports.replace(' ','')
 
 print('\n)
 
-for port in ports.replace(','):
+for port in ports.replace(' ',''):
     try:
         port = int(port)
     except:
